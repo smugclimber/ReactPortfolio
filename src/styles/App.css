@@ -1,0 +1,46 @@
+body{
+  background-image: url('./../images/portfolio_bkgrnd.svg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-color: black;
+}
+
+h2{
+  color: #cdd4d3;
+  font-size: 3vh;
+  padding: 2vh;
+}
+
+.container{
+margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+  body{
+    background-color: black;
+    overflow: visible;
+    background-position-y: -6rem;
+  }
+
+  .container{
+  margin-bottom: 15%;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 501px) {
+  body{
+    background-color: black;
+    overflow: visible;
+    background-position-y: -4.5rem;
+  }
+
+  .container{
+  margin-bottom: 15%;
+  }
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  src: local('Geomanist'), url(./../fonts/geomanist.ttf);
+}

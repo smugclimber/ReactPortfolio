@@ -1,0 +1,75 @@
+.wall {
+  width: 30px;
+  height: 30px;
+  background-image: url('../wall2_30.png');
+  display: inline-block;
+}
+.coin {
+  width: 30px;
+  height: 30px;
+  background-image: url('../coin30.png');
+  display: inline-block;
+}
+.ground {
+  width: 30px;
+  height: 30px;
+  background-image: url('../bg30.png');
+  display: inline-block;
+}
+.ghost {
+  width: 30px;
+  height: 30px;
+  background-image: url('../ghost1.png');
+  display: inline-block;
+}
+.pacman-l {
+  width: 30px;
+  height: 30px;
+  background-image: url('../pacman30L.png');
+  display: inline-block;
+}
+.pacman-r {
+  width: 30px;
+  height: 30px;
+  background-image: url('../pacman30.png');
+  display: inline-block;
+}
+.pacman-u {
+  width: 30px;
+  height: 30px;
+  background-image: url('../pacman30U.png');
+  display: inline-block;
+}
+.pacman-d {
+  width: 30px;
+  height: 30px;
+  background-image: url('../pacman30D.png');
+  display: inline-block;
+}
+.signature {
+  width: 30px;
+  height: 30px;
+  background-image: url('../wall30.png');
+  display: inline-block;
+}
+.secret {
+  width: 30px;
+  height: 30px;
+  background-image: url('../wall30.png');
+  display: inline-block;
+}
+.nada {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.score {
+  line-height: 30px;
+  width: 165px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: purple;
+  font-size: 25pt;
+  outline: 5px dotted purple;
+}

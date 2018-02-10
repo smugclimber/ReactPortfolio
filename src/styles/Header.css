@@ -1,0 +1,134 @@
+.titleList{
+  font-family: 'Geomanist', Arial;
+  font-size: 1.5vw;
+  color: steelblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -2%;
+}
+
+.titleList p {
+  width: 25%;
+  text-align: center;
+}
+
+.navButts {
+  display: flex;
+  justify-content: center;
+}
+
+.navButts > div {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Geomanist', Arial;
+}
+
+
+.header h1 {
+  margin: 0;
+  padding-top: 1%;
+  text-align: center;
+  color: #cdd4d3;
+  font-size: 4.5vw;
+  font-family: 'Geomanist', Arial;
+}
+
+@media only screen and (max-width: 500px) {
+  .btn{
+    padding: 6% !important;
+  }
+
+  .subheader{
+    font-weight: bold !important;
+    font-size: 15px !important;
+    color: black !important;
+  }
+
+  .side-nav{
+    background-color: steelblue !important;
+  }
+
+  .btn p{
+    margin-top: -22%;
+    line-height: 100%;
+  }
+
+  .titleList{
+    font-size: 3.5vw;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .titleList p {
+    width: 25%;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .navButts {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navButts > div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .header h1 {
+    margin: 0;
+    padding-top: 2%;
+    font-size: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 501px) {
+  .titleList{
+    font-size: 2.3vw;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .titleList p {
+  width: 30%;
+  }
+
+  .navButts {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navButts > div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .header h1 {
+    margin: 0;
+    padding-top: 1%;
+    font-size: 10vw;
+  }
+
+  .btn p{
+    margin-top: 5%;
+    line-height: 100%;
+  }
+
+  .subheader{
+    font-weight: bold !important;
+    font-size: 15px !important;
+    color: black !important;
+  }
+
+  .side-nav{
+    background-color: steelblue !important;
+  }
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  src: local('Geomanist'), url(./../fonts/geomanist.ttf);
+}

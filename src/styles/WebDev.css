@@ -1,0 +1,138 @@
+.workGlass{
+  font-family: 'Geomanist', Arial;
+  font-size: 1.5vw;
+  background-color: black;
+  opacity: 0.85 !important;
+  border-radius: 25px;
+}
+
+.projDescription h3{
+  font-size: 1.5vw;
+  color: #337ab7;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.projDescription p{
+  padding-left: 4%;
+  margin-top: -6%;
+}
+
+.projImg img{
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.carousel-slider.initialized{
+  height: 550px !important;
+  display: flex !important;
+}
+
+.carousel .indicators .indicator-item.active{
+  background-color: red;
+  height: 10px;
+  width:10px;
+}
+
+ul.indicators{
+  bottom: 91% !important;
+  right: -25% !important;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .workGlass{
+    border-radius: 10px;
+  }
+
+  .portH2{
+    font-size: 7vw;
+    margin-top: -1%;
+  }
+  .projImg img{
+    border-radius: 10px;
+    width: 100% !important;
+  }
+
+  .projDescription h3{
+    font-size: 7vw;
+    color: #337ab7;
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+
+  .projDescription p{
+    padding-left: 2%;
+    margin-top: -5%;
+  }
+
+  .carousel.carousel-slider .carousel-item{
+    display:flex !important;
+    flex-flow: column-reverse !important;
+    justify-content: flex-end;
+    padding-top: 3%;
+  }
+
+  .carousel-slider.initialized{
+    height: 700px !important;
+    display: flex !important;
+  }
+
+  .projDescription .btn {
+    text-align: center;
+    padding: 1% !important;
+    color: white !important;
+  }
+
+  ul.indicators{
+    bottom: 94% !important;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 501px) {
+  .workGlass{
+    font-family: 'Geomanist', Arial;
+    font-size: 1.5vw;
+    background-color: black;
+    opacity: 0.85 !important;
+    border-radius: 25px;
+  }
+
+  .projDescription h3{
+    font-size: 1.5vw;
+    color: #337ab7;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
+  .projDescription p{
+    padding-left: 4%;
+    margin-top: -6%;
+  }
+
+  .projImg img{
+    border-radius: 25px;
+    padding: 5px;
+  }
+
+  .carousel-slider.initialized{
+    height: 550px !important;
+    display: flex !important;
+  }
+
+  .carousel .indicators .indicator-item.active{
+    background-color: red;
+    height: 10px;
+    width:10px;
+  }
+
+  ul.indicators{
+    bottom: 91% !important;
+    right: -25% !important;
+  }
+}
+
+@font-face {
+  font-family: 'Geomanist';
+  src: local('Geomanist'), url(./../fonts/geomanist.ttf);
+}
