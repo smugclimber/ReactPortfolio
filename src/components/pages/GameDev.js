@@ -4,6 +4,7 @@ import proj2 from './../../images/deck_gunner_title.png';
 import proj3 from './../../images/Spudemic_preview.png';
 import proj4 from './../../images/TimeBender_preview.png';
 import proj5 from './../../images/BlockBreaker_preview.png';
+import proj6 from './../../images/RetroConsoles_preview.png';
 import {Card, CardTitle, Col} from 'react-materialize'
 import "./../../styles/GameDev.css";
 
@@ -26,23 +27,23 @@ const GameDev = () =>
     </Col>
     <Col l={4} s={6} className='projCard'>
       <Card header={<CardTitle reveal image={proj2} waves='light'/>}
-    		title="Deck Gunner: Survive the onslaught of alien ships!"
+    		title="Deck Gunner: Survive the onslaught of alien ships"
     		reveal=
           {<p>Deck Gunner is a modern 2D clone of 'Space Invaders'. The player, in his spaceship, is the Deck Gunner and will be able to move within the play space using the left and right arrow keys, while shooting projectiles at enemies who perpetually spawn as the player attempts to destroy them.<br/>
           Tech Used: Unity3D, C#, Adobe Photoshop
           </p>}>
-    		<p><a href="http://deckgunner.atomicnick.com.s3-website-us-east-1.amazonaws.com">Deck Gunner Demo</a></p>
+    		<p><a href="http://deckgunner.atomicnick.com">Deck Gunner Demo</a></p>
       </Card>
     </Col>
     <Col l={4} s={6} className='projCard'>
       <Card header={<CardTitle reveal image={proj3} waves='light'/>}
-    		title="Spudemic: Survive the potato apocalypse!"
+    		title="Spudemic: Survive the potato apocalypse"
     		reveal=
           {<p>Meet Ida. She's tough, determined, and just a little bit pissed off. All Ida wants is to finish her shift at GamePlace and get home. But with a new flu strain, Spud Flu, on the rise, it's gonna be a tough commute. Get Ida home without letting the Spud Flu get transmitted to her.<br/>
           Tech Used: Unity3D, C#, Adobe Illustrator
           </p>}>
     		<p><a href="https://globalgamejam.org/2018/games/spudemic">GGJ Spudemic Link</a></p>
-        <p><a href="http://spudemic.atomicnick.com.s3-website-us-east-1.amazonaws.com">Spudemic Demo</a></p>
+        <p><a href="http://spudemic.atomicnick.com">Spudemic Demo</a></p>
       </Card>
     </Col>
   </div>
@@ -64,7 +65,17 @@ const GameDev = () =>
         {<p>Block Breaker is a clone of the all-time Atari classic 'Break-out!'. The player must travel through multiple levels breaking blocks that are taking over America! Use your trusty spike-ball to bust them out!<br/>
         Tech Used: GIMP, Unity3D, Audacity Sound Mixer
         </p>}>
-    		<p><a href="http://blockbreaker.atomicnick.com.s3-website-us-east-1.amazonaws.com/">BlockBreaker Demo</a></p>
+    		<p><a href="http://blockbreaker.atomicnick.com">BlockBreaker Demo</a></p>
+      </Card>
+    </Col>
+    <Col l={4} s={6} className='projCard'>
+      <Card header={<CardTitle reveal image={proj6} waves='light'/>}
+    		title="Retro Consoles Game"
+    		reveal=
+        {<p>Retro Console Madness is a classic memory game that revisits the bygone days of Atari and Ninetendo classic. Players must pick images to get points, but pick the same image twice and you lose!!<br/>
+        Tech Used: React, Javascript, Audacity Sound Mixer
+        </p>}>
+    		<p><a href="retroconsoles.atomicnick.com">BlockBreaker Demo</a></p>
       </Card>
     </Col>
   </div>
