@@ -1,20 +1,3 @@
-.titleList{
-  font-family: 'Geomanist', Arial;
-  font-size: 1.5vw;
-  color: steelblue;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: -2%;
-}
-
-.titleList p {
-  width: 25%;
-  text-align: center;
-}
-
 .navButts {
   display: flex;
   justify-content: center;
@@ -26,10 +9,13 @@
   font-family: 'Geomanist', Arial;
 }
 
+.btn{
+    background-color: steelblue !important;
+}
 
 .header h1 {
   margin: 0;
-  padding-top: 1%;
+  padding-top: 4%;
   text-align: center;
   color: #cdd4d3;
   font-size: 4.5vw;
@@ -38,7 +24,11 @@
 
 @media only screen and (max-width: 500px) {
   .btn{
-    padding: 6% !important;
+    padding: 0% 4% 4% !important;
+  }
+
+  .hamb{
+    margin-top: -30%!important;
   }
 
   .subheader{
@@ -54,18 +44,6 @@
   .btn p{
     margin-top: -22%;
     line-height: 100%;
-  }
-
-  .titleList{
-    font-size: 3.5vw;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .titleList p {
-    width: 25%;
-    font-size: 10px;
-    font-weight: bold;
   }
 
   .navButts {
@@ -86,16 +64,6 @@
 }
 
 @media only screen and (max-width: 1400px) and (min-width: 501px) {
-  .titleList{
-    font-size: 2.3vw;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .titleList p {
-  width: 30%;
-  }
-
   .navButts {
     display: flex;
     justify-content: center;

@@ -2,14 +2,10 @@ import React from "react";
 import "../../styles/Header.css";
 import {Button, SideNav, SideNavItem} from 'react-materialize'
 import img from './../../images/nick_face.png';
+import menu from './../../images/hamb_menu.png';
 
 const Header = props =>
     <div className="col-12">
-      <div className="titleList">
-        <p>Project Management</p>
-        <p>Game Design</p>
-        <p>Fullstack Engineering</p>
-      </div>
       <header className="header">
         <h1 onClick={() => props.handlePageChange("Main")}>Nick H</h1>
         <div className="flexContainer navButts hide-on-small-only">
@@ -28,7 +24,7 @@ const Header = props =>
         </div>
       </header>
       <SideNav
-        trigger={<Button className="hide-on-med-and-up"><p>Mobile<br/>Menu</p></Button>}
+        trigger={<Button className="hide-on-med-and-up hamb" icon='dehaze'/>}
         options={{ closeOnClick: true, menuWidth: 120 }}
         >
         <SideNavItem userView

@@ -1,3 +1,7 @@
+.gamesBox{
+  margin-top: 8%;
+}
+
 .projBox{
   display: block;
 }
@@ -13,7 +17,7 @@ background-color: black;
 }
 
 .grey-text.text-darken-4{
-  color: steelblue !important;
+  color: #cdd4d3 !important;
 }
 
 .threeDModel{

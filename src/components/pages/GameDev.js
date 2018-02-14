@@ -11,10 +11,7 @@ import "./../../styles/GameDev.css";
 const GameDev = () =>
 
 <div>
-  <div>
-    <h2>Game Design</h2>
-  </div>
-  <div className="Row">
+  <div className="Row gamesBox">
     <Col l={4} s={6} className='projCard'>
       <Card header={<CardTitle reveal image={proj1} waves='light'/>}
     		title="Wave Boy: Virtual Reality, one delivery at a time!"
