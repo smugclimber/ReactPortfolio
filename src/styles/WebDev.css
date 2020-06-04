@@ -1,3 +1,7 @@
+h6 {
+  color: #3d719d;
+  padding-left: 0.5em;
+}
 .workGlass{
   font-family: 'Geomanist', Arial;
   font-size: 1.5vw;
@@ -69,10 +73,11 @@ ul.indicators{
     flex-flow: column-reverse !important;
     justify-content: flex-end;
     padding-top: 3%;
+    height: 100em;
   }
 
   .carousel-slider.initialized{
-    height: 135vh !important;
+    height: 85vh !important;
     display: flex !important;
   }
 

@@ -1,6 +1,6 @@
 #svgSpecs{
   width:70%;
-  height:70%;
+  height:50em;
 }
 
 #wrap {
@@ -10,14 +10,14 @@
 
 @media only screen and (max-width: 500px) {
   #svgSpecs{
-    width:100%;
-    height:100%;
+    margin-top: 10%;
+    width: 100%;
+    height: 60%;
   }
 
   #wrap {
     text-align: center;
     height: 80vh;
-    margin-top: -28%
   }
 }
 

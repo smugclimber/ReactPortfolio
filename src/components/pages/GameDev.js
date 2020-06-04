@@ -1,10 +1,10 @@
 import React from "react";
-import proj1 from './../../images/WaveBoy_preview.png';
-import proj2 from './../../images/deck_gunner_title.png';
-import proj3 from './../../images/Spudemic_preview.png';
-import proj4 from './../../images/TimeBender_preview.png';
-import proj5 from './../../images/BlockBreaker_preview.png';
-import proj6 from './../../images/RetroConsoles_preview.png';
+import proj1 from './../../images/WaveBoy_preview.jpg';
+import proj2 from './../../images/deck_gunner_title.jpg';
+import proj3 from './../../images/Spudemic_preview.jpg';
+import proj4 from './../../images/TimeBender_preview.jpg';
+import proj5 from './../../images/BlockBreaker_preview.jpg';
+import proj6 from './../../images/RetroConsoles_preview.jpg';
 import {Card, CardTitle, Col} from 'react-materialize'
 import "./../../styles/GameDev.css";
 

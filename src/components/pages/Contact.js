@@ -14,7 +14,7 @@ const Contact = props =>
         <a href="https://twitter.com/smugclimber"><img className= "linkImg" src={twitLogo} alt='missing logo'></img></a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/nick-h-9b748628/"><img className= "linkImg" src={linkedinLogo} alt='missing logo'></img></a>
+        <a href="https://www.linkedin.com/in/nick-in-3d/"><img className= "linkImg" src={linkedinLogo} alt='missing logo'></img></a>
       </div>
       <div>
         <a href="https://github.com/smugclimber/"><img className= "linkImg" src={gitLogo} alt='missing logo'></img></a>
@@ -23,7 +23,7 @@ const Contact = props =>
         <a href="https://sketchfab.com/smug_climber"><img className= "linkImg" src={sketchfabLogo} alt='missing logo'></img></a>
       </div>
       <div>
-        <a href="https://stackoverflow.com/users/8559870/nick-h"><img className= "linkImg" src={stackoverLogo} alt='missing logo'></img></a>
+        <a href="https://stackoverflow.com/users/11014740/smug"><img className= "linkImg" src={stackoverLogo} alt='missing logo'></img></a>
       </div>
     </div>
   </div>;
