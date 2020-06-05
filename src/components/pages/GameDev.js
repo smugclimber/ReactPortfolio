@@ -66,7 +66,7 @@ const GameDev = () =>
         {<p>TimeBender is a React VR application. A game of repairing time, where you the user is anonymously contacted by a crazed scientist who has disrupted the space time continuum. Enjoy!.<br/>
         <br/>Tech Used: ReactVR, Javascript
         </p>}>
-        <a href="https://time-bender.herokuapp.com/"><button className='game_btn btn steelblue waves-effect white white-text'>TimeBender Demo</button></a>
+        <a href="https://time-bender.herokuapp.com/"><button className='game_btn game_btn3 btn steelblue waves-effect white white-text'>TimeBender Demo</button></a>
       </Card>
       <br></br>
     </Col>
@@ -77,7 +77,7 @@ const GameDev = () =>
         {<p>Block Breaker is a clone of the all-time Atari classic 'Break-out!'. The player must travel through multiple levels breaking blocks that are taking over America! Use your trusty spike-ball to bust them out!<br/>
         <br/>Tech Used: GIMP, Unity3D, Audacity Sound Mixer
         </p>}>
-        <a href="http://blockbreaker.atomicnick.com"><button className='game_btn btn steelblue waves-effect white white-text'>BlockBreaker Demo</button></a>
+        <a href="http://blockbreaker.atomicnick.com"><button className='game_btn game_btn3 btn steelblue waves-effect white white-text'>BlockBreaker Demo</button></a>
       </Card>
       <br></br>
     </Col>
@@ -88,7 +88,7 @@ const GameDev = () =>
         {<p>Retro Console Madness is a classic memory game that revisits the bygone days of Atari and Ninetendo classic. Players must pick images to get points, but pick the same image twice and you lose!!<br/>
         <br/>Tech Used: React, Javascript, Audacity Sound Mixer
         </p>}>
-        <a href="retroconsoles.atomicnick.com"><button className='game_btn btn steelblue waves-effect white white-text'>BlockBreaker Demo</button></a>
+        <a href="retroconsoles.atomicnick.com"><button className='game_btn game_btn3 btn steelblue waves-effect white white-text'>Retro Demo</button></a>
       </Card>
       <br></br>
     </Col>
