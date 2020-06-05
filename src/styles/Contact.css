@@ -47,7 +47,9 @@
     border-radius: 25px;
   }
   .conGlass h2{
-    margin-left: 5%;
+    margin-left: 3%;
+    padding: none;
+    padding-top: 2vh;
   }
 }
 

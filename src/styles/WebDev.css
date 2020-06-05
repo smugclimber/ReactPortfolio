@@ -19,6 +19,14 @@ h6 {
   padding-top: 8%
 }
 
+.projDescription .btn {
+  font-size: medium;
+}
+
+.btn_space {
+  margin-bottom: 0.5em;
+}
+
 .projDescription p{
   padding-left: 4%;
   margin-top: -6%;
@@ -63,9 +71,13 @@ ul.indicators{
     margin-top: 10%;
   }
 
+  .projDescription {
+    margin-top: -6%;
+  }
+
   .projDescription p{
     padding-left: 2%;
-    margin-top: -5%;
+    padding-top: 0.5em;
   }
 
   .carousel.carousel-slider .carousel-item{
@@ -73,11 +85,11 @@ ul.indicators{
     flex-flow: column-reverse !important;
     justify-content: flex-end;
     padding-top: 3%;
-    height: 100em;
+    height: 96em;
   }
 
   .carousel-slider.initialized{
-    height: 85vh !important;
+    height: 99vh !important;
     display: flex !important;
   }
 
@@ -85,6 +97,8 @@ ul.indicators{
     text-align: center;
     padding: 1% !important;
     color: white !important;
+    width: 10em;
+    font-size: small;
   }
 
   ul.indicators{

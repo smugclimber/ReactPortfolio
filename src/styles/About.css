@@ -108,15 +108,19 @@ h4{
   }
   
   .solidglass_logos{
-
+    width: 25em;
   }
 
   .myPic {
     padding: 0em 1em;
   }
 
+  .para_pad {
+    padding: 0em 1.5em !important
+  }
+
   .p1 {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .p2 {
