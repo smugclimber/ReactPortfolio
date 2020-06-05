@@ -7,21 +7,27 @@ import menu from './../../images/hamb_menu.png';
 const Header = props =>
     <div className="col-12">
       <header className="header">
-        <h1 onClick={() => props.handlePageChange("Main")}>Nick H</h1>
+        <div className="title_space" onClick={() => props.handlePageChange("Main")}>
+          <h1>AtomicNick</h1>
+          <h1>AtomicNick</h1>
+          <h1>AtomicNick</h1>
+        </div>
+        
         <div className="flexContainer navButts hide-on-small-only">
-          <div>
-            <Button waves='light' onClick={() => props.handlePageChange("About")}>About</Button>
+          <div class="btnbox">
+            <button  onClick={() => props.handlePageChange("About")}>ABOUT</button>
           </div>
-          <div>
-            <Button waves='light' onClick={() => props.handlePageChange("WebDev")}>WebDev</Button>
+          <div class="btnbox">
+            <button  onClick={() => props.handlePageChange("WebDev")}>WebDev</button>
           </div>
-          <div>
-            <Button waves='light' onClick={() => props.handlePageChange("GameDev")}>GameDev</Button>
+          <div class="btnbox">
+            <button  onClick={() => props.handlePageChange("GameDev")}>GameDev</button>
           </div>
-          <div>
-            <Button waves='light' onClick={() => props.handlePageChange("Contact")}>Contact</Button>
+          <div class="btnbox">
+            <button  onClick={() => props.handlePageChange("Contact")}>Contact</button>
           </div>
         </div>
+
       </header>
       <SideNav
         trigger={<Button className="hide-on-med-and-up hamb" icon='dehaze'/>}

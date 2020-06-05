@@ -43,7 +43,7 @@ const About = () =>
             <img className="myPic" src={img} alt="missing pic"></img>
           </Col>
           <Col s={12} m={9} l={9} className="para_pad">
-             <p className="p1">&nbsp;&nbsp;&nbsp;&nbsp;Washington DC based Web Developer and Game designer with a background in programming, database design, and team building. My professional focus is in full stack development for web applications and a recent interest in Virtual Reality & Augmented Reality development. I support both front and backend dev, but lean towards backend design. VR spaces, 3D models, remote raspberry pi servers fill my latest personal projects. I also enjoy coding meetups and local game jams with the tech community. Feel free to peruse this site to see ptojects, latest work, and game designs. I am proficient in the following:</p>
+             <p className="p1">&nbsp;&nbsp;&nbsp;&nbsp;I'm Nick, a Washington DC based Web Developer and Game designer with a background in programming, database design, and team building. My professional focus is in full stack development for web applications and a recent interest in Virtual Reality & Augmented Reality development. I support both front and backend dev, but lean towards backend design. VR spaces, 3D models, remote raspberry pi servers fill my latest personal projects. I also enjoy coding meetups and local game jams with the tech community. Feel free to peruse this site to see ptojects, latest work, and game designs. I am proficient in the following:</p>
           </Col>
         </Row>
         <Row>
