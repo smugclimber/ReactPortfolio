@@ -143,7 +143,7 @@ const WebDev = () =>
           </p>
           <Row>
             <Col s={6} l={12} className="btn_space">
-              <a href="https://github.com/smugclimber/time-bender"><button className='btn steelblue waves-effect white white-text'>Github Repo</button></a>
+              <a href="https://github.com/smugclimber/TimeBender"><button className='btn steelblue waves-effect white white-text'>Github Repo</button></a>
             </Col>
             <Col s={6} l={12}>
               <a href="https://time-bender.herokuapp.com/"><button className='btn steelblue waves-effect white white-text'>Demo Site</button></a>
